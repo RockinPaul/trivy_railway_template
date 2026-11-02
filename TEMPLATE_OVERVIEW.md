@@ -64,7 +64,7 @@ company.
 ### Deployment Dependencies
 
 - Upstream project: [aquasecurity/trivy](https://github.com/aquasecurity/trivy) (Apache-2.0), image
-  `ghcr.io/aquasecurity/trivy:0.74.0`.
+  `ghcr.io/aquasecurity/trivy:0.76.1`.
 - Upstream documentation:
   [client/server mode](https://github.com/aquasecurity/trivy/blob/main/docs/guide/references/modes/client-server.md).
 - Template source:

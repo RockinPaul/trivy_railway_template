@@ -12,7 +12,7 @@
 # configure --token and restrict network access to trusted clients." On a public
 # Railway domain the network restriction is not available, which leaves the
 # token as the only access control. See entrypoint.sh.
-ARG TRIVY_VERSION=0.74.0
+ARG TRIVY_VERSION=0.76.1
 FROM ghcr.io/aquasecurity/trivy:${TRIVY_VERSION}
 
 # TRIVY_CACHE_DIR is the whole persistence story: the vulnerability database

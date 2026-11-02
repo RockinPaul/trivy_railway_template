@@ -29,7 +29,7 @@ curl https://YOUR-DOMAIN.up.railway.app/version
 
 | Service | Base | Public | Role |
 |---|---|---|---|
-| `trivy` | `ghcr.io/aquasecurity/trivy:0.74.0` | **yes** | The scan and cache RPC surface, plus `/healthz` and `/version`. |
+| `trivy` | `ghcr.io/aquasecurity/trivy:0.76.1` | **yes** | The scan and cache RPC surface, plus `/healthz` and `/version`. |
 
 One service, one volume, no database container. Upstream's image is used unmodified.
 
